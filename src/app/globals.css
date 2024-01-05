@@ -31,6 +31,10 @@ body {
   src: url("../../public/Burtons.otf");
 }
 
-.poof{
-  
+.gradient-light {
+  background: linear-gradient(to right, #00B4DB, #0083B0);
+}
+
+.gradient-dark {
+  background: linear-gradient(to right, #ff002f, #af40ff);
 }
