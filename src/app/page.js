@@ -89,7 +89,7 @@ export default function Home() {
             <div
               className={`${
                 darkMode
-                  ? "transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-105 duration-200 bg-stone-300 hover:shadow-2xl hover:shadow-yellow-400 shadow-lg  p-10 rounded-3xl my-10"
+                  ? "transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-105 duration-200 bg-stone-600 hover:shadow-2xl hover:shadow-yellow-400 shadow-lg  p-10 rounded-3xl my-10"
                   : "transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-105 duration-200 bg-white hover:shadow-2xl hover:shadow-yellow-200 shadow-lg  p-10 rounded-3xl my-10"
               }`}
             >
@@ -101,7 +101,7 @@ export default function Home() {
                   src={ian}
                 />
               </div>
-              <p className="text-m py-5 leading-8 text-gray-800 md:text-md max-w-md mx-auto">
+              <p className="text-m py-5 leading-8 text-gray-800 md:text-md max-w-md mx-auto dark:text-white">
                 {" "}
                 Welcome!
                 <br />
@@ -168,7 +168,7 @@ export default function Home() {
             </div>
           </div>
           <div className="xl:flex gap-20">
-            <div className="transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-105 duration-200 hover:shadow-2xl hover:shadow-red-500 bg-white text-black text-center shadow-2xl p-10 rounded-xl my-10 ">
+            <div className="transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-105 duration-200 hover:shadow-2xl hover:shadow-red-500 bg-white text-black text-center shadow-2xl p-10 rounded-xl my-10 dark:bg-stone-500 dark:text-white">
               <div className="flex items-center justify-center">
                 <Image width={200} src={rocket} />
               </div>
@@ -182,7 +182,7 @@ export default function Home() {
                 have a smooth user experience as you navigate through signing
                 up, logging in, and ordering from the menu!
               </p>
-              <h4 className=" underline font-semibold py-4 text-teal-500">
+              <h4 className=" underline font-semibold py-4 text-teal-500 dark:text-teal-200">
                 <a
                   href="https://restaurant-express-c9c955225096.herokuapp.com/"
                   target="_blank"
@@ -192,7 +192,7 @@ export default function Home() {
                 </a>
               </h4>
             </div>
-            <div className=" transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-105 duration-200 bg-white hover:shadow-2xl hover:shadow-cyan-500 shadow-lg text-black text-center  p-10 rounded-xl my-10">
+            <div className=" transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-105 duration-200 bg-white hover:shadow-2xl hover:shadow-cyan-500 shadow-lg text-black text-center  p-10 rounded-xl my-10 dark:bg-stone-500 dark:text-white">
               <div className="flex items-center justify-center">
                 <Image width={200} src={weather} />
               </div>
@@ -206,7 +206,7 @@ export default function Home() {
                 forcast for multiple cities at a time. Enjoy checking what your
                 current weather is and the five day forcast!
               </p>
-              <h3 className=" underline font-semibold text-teal-500">
+              <h3 className=" underline font-semibold text-teal-500 dark:text-teal-200">
                 <a
                   href="https://theiananderson.github.io/Weather-app/"
                   target="_blank"
@@ -219,7 +219,7 @@ export default function Home() {
               <p className="text-gray-300 py-1"></p>
               <p className="text-gray-300 py-1"></p>
             </div>
-            <div className="transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-105 duration-200 bg-white hover:shadow-2xl shadow-lg hover:shadow-yellow-600 text-black text-center p-10 rounded-xl my-10">
+            <div className="transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-105 duration-200 bg-white hover:shadow-2xl shadow-lg hover:shadow-yellow-600 text-black text-center p-10 rounded-xl my-10 dark:bg-stone-500 dark:text-white">
               <div className="flex items-center justify-center">
                 <Image width={200} src={note} />
               </div>
@@ -234,7 +234,7 @@ export default function Home() {
                 be there after the page reloads. What are you waiting for? Give
                 it a try!
               </p>
-              <h3 className=" underline font-semibold text-teal-500">
+              <h3 className=" underline font-semibold text-teal-500 dark:text-teal-200">
                 <a
                   href="https://note-taker-pro-plus-92742ea17e61.herokuapp.com/"
                   target="_blank"
